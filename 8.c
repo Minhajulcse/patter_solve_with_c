@@ -5,7 +5,7 @@ int main(){
     for(row=1; row<=n; row++){
         for(col=1; col<=n; col++){
 
-                if(col==3 && row==3){
+                if(col==(n/2)+1 && row==(n/2)+1){
                 printf("?");
             }
             else if( col==row || col+row==n+1){
